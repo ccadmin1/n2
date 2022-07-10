@@ -248,7 +248,7 @@ async def channel_info(bot, message):
     """Send basic information of channel"""
     if isinstance(CHANNELS, (int, str)):
         channels = [CHANNELS]
-    elif isinstance(CHANNELS, list):https://t.me/M0vieslinkz
+    elif isinstance(CHANNELS, list):
         channels = CHANNELS
     else:
         raise ValueError("Unexpected type of CHANNELS")
