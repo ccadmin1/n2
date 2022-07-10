@@ -61,7 +61,7 @@ class script(object):
 
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : UɴᴋɴᴏᴡN ᠰ ᴛɢ
 
-💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : ᴄʟɪᴄᴋ ʜᴇʀᴇ
+💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/ccbotsource>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 
 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : ʙx ʙᴏᴛs sᴜᴘᴘᴏʀᴛ
 
