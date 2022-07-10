@@ -55,7 +55,7 @@ class script(object):
 
 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/>Pʏᴛʜᴏɴ</a> 
 
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : <a href=https://github.com/pyrogram/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
 
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
 
