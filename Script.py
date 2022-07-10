@@ -63,9 +63,9 @@ class script(object):
 
 💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/ccbotsource>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : ʙx ʙᴏᴛs sᴜᴘᴘᴏʀᴛ
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/M0vieslinkz>Mᴏᴠɪᴇ Mᴇᴅɪᴀ </a>
 
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : ʙx ʙᴏᴛs ᴜᴘᴅᴀᴛᴇs</b>"""
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/M0vieslinkz>Mᴏᴠɪᴇ Mᴇᴅɪᴀ </a></b>"""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
