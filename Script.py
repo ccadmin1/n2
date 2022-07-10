@@ -51,7 +51,7 @@ class script(object):
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: Bʜᴀsɪ 
+    AUTOFILTER_TXT = """<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href=https://t.me/@offlineprobot>Bʜᴀsɪ</a> 
 
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
 
