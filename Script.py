@@ -59,7 +59,7 @@ class script(object):
 
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=http://heroku.com/>Hᴇʀᴏᴋᴜ</a>
 
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : UɴᴋɴᴏᴡN ᠰ ᴛɢ
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/CM00PRO>UɴᴋɴᴏᴡN ᠰ ᴛɢ</a>
 
 💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/ccbotsource>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 
