@@ -57,7 +57,7 @@ class script(object):
 
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : <a href=https://github.com/pyrogram/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
 
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=http://heroku.com/>Hᴇʀᴏᴋᴜ</a>
 
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : UɴᴋɴᴏᴡN ᠰ ᴛɢ
 
