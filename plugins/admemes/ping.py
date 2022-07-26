@@ -117,7 +117,7 @@ async def check_alive(_, message):
     await message.reply_text(ALIVE)
 
 
-@Client.on_message(filters.command("ping", COMMAND_HAND_LER)) & f_onw_fliter)
+@Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
 async def ping(_, message):
     start_t = time.time()
     rm = await message.reply_text("...")
