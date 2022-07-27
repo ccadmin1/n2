@@ -7,6 +7,7 @@ import random
 import heroku3
 import requests
 import math
+import asyncio
 import time
 from pyrogram import Client, filters
 from info import COMMAND_HAND_LER, ADMINS
