@@ -124,6 +124,5 @@ async def ping(_, message):
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     uptime = time.strftime("%Hh | %Mm | %Ss", time.gmtime(time.time() - BOT_START_TIME))
-    await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
     await rm.edit(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
-
+    await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
