@@ -125,7 +125,7 @@ async def ping(_, message):
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     uptime = time.strftime("%Hh | %Mm | %Ss", time.gmtime(time.time() - BOT_START_TIME))
-    mk = await rm.edit(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
-    mk = await message.reply_sticker("CAACAgUAAxkBAAI802LhFMH4Z6z8MIgznyYAAfYF15doHQACzAUAAgOD0FX2Vmac3-v5Ux4E") 
+    rm = await rm.edit(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
+    rm = await message.reply_sticker("CAACAgUAAxkBAAI802LhFMH4Z6z8MIgznyYAAfYF15doHQACzAUAAgOD0FX2Vmac3-v5Ux4E") 
     await asyncio.sleep(10)
-    await mk.delete()
+    await rm.delete()
