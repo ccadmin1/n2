@@ -127,3 +127,4 @@ async def ping(_, message):
     await rm.edit(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
     await message.reply_sticker("CAACAgUAAxkBAAI802LhFMH4Z6z8MIgznyYAAfYF15doHQACzAUAAgOD0FX2Vmac3-v5Ux4E") 
     await asyncio.sleep(10)
+    await message.delete()
