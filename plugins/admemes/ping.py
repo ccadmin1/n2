@@ -121,7 +121,7 @@ async def check_alive(_, message):
 @Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
 async def ping(_, message):
     start_t = time.time()
-    rm = await message.reply_text("...")
+    message = await message.reply_text("...")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     uptime = time.strftime("%Hh | %Mm | %Ss", time.gmtime(time.time() - BOT_START_TIME))
