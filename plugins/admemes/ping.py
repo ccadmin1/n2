@@ -121,12 +121,13 @@ async def check_alive(_, message):
 @Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
 async def ping(_, message):
     start_t = time.time()
-    message = await message.reply_text("...")
+    m=await message.reply_sticker(sticker="CAACAgUAAxkBAAFMES9i7nknE3lSO20KTf9j5Zu1U9lRJwACvQMAAg472FWXnTfo27wNfR4E")
+    #message = await message.reply_text("...")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     uptime = time.strftime("%Hh | %Mm | %Ss", time.gmtime(time.time() - BOT_START_TIME))
-    await bot.send_sticker(chat_id=message.chat_id, "CAACAgUAAxkBAAFMES9i7nknE3lSO20KTf9j5Zu1U9lRJwACvQMAAg472FWXnTfo27wNfR4E")
-    await message.edit(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
-    await asyncio.sleep(3)
-    await message.delete() 
-    await r.delete()
+    await asyncio.sleep(2)
+    await m.delete() 
+    await message.reply_text(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
+       
+    
