@@ -126,8 +126,6 @@ async def ping(_, message):
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
     uptime = time.strftime("%Hh | %Mm | %Ss", time.gmtime(time.time() - BOT_START_TIME))
-    await asyncio.sleep(2)
-    await m.delete() 
     await message.reply_text(f"🏓 <b>ᴘɪɴɢ</b> : <code>{time_taken_s:.3f} ms</code>\n\n⏰<b> ᴜᴘᴛɪᴍᴇ : </b><code>{uptime}</code>")
        
     
